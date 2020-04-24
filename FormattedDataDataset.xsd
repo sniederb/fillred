@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FormattedDataDataset" targetNamespace="http://tempuri.org/FormattedDataDataset.xsd" xmlns:mstns="http://tempuri.org/FormattedDataDataset.xsd" xmlns="http://tempuri.org/FormattedDataDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FormattedDataDataset" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="FormattedDataDataset" msprop:Generator_DataSetName="FormattedDataDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Record" msprop:Generator_UserTableName="Record" msprop:Generator_RowDeletedName="RecordRowDeleted" msprop:Generator_TableClassName="RecordDataTable" msprop:Generator_RowChangedName="RecordRowChanged" msprop:Generator_RowClassName="RecordRow" msprop:Generator_RowChangingName="RecordRowChanging" msprop:Generator_RowEvArgName="RecordRowChangeEvent" msprop:Generator_RowEvHandlerName="RecordRowChangeEventHandler" msprop:Generator_TablePropName="Record" msprop:Generator_TableVarName="tableRecord" msprop:Generator_RowDeletingName="RecordRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:ID" />
+              <xs:element name="Index" msprop:Generator_UserColumnName="Index" msprop:Generator_ColumnPropNameInRow="Index" msprop:Generator_ColumnVarNameInTable="columnIndex" msprop:Generator_ColumnPropNameInTable="IndexColumn" type="xs:int" />
+              <xs:element name="Hidden" msprop:Generator_UserColumnName="Hidden" msprop:Generator_ColumnPropNameInRow="Hidden" msprop:Generator_ColumnVarNameInTable="columnHidden" msprop:Generator_ColumnPropNameInTable="HiddenColumn" type="xs:boolean" default="false" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Field" msprop:Generator_UserTableName="Field" msprop:Generator_RowDeletedName="FieldRowDeleted" msprop:Generator_TableClassName="FieldDataTable" msprop:Generator_RowChangedName="FieldRowChanged" msprop:Generator_RowClassName="FieldRow" msprop:Generator_RowChangingName="FieldRowChanging" msprop:Generator_RowEvArgName="FieldRowChangeEvent" msprop:Generator_RowEvHandlerName="FieldRowChangeEventHandler" msprop:Generator_TablePropName="Field" msprop:Generator_TableVarName="tableField" msprop:Generator_RowDeletingName="FieldRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RecordName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RecordName" msprop:Generator_ColumnPropNameInRow="RecordName" msprop:Generator_ColumnVarNameInTable="columnRecordName" msprop:Generator_ColumnPropNameInTable="RecordNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RecordIndex" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RecordIndex" msprop:Generator_ColumnPropNameInRow="RecordIndex" msprop:Generator_ColumnVarNameInTable="columnRecordIndex" msprop:Generator_ColumnPropNameInTable="RecordIndexColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInTable="ValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Index" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Index" msprop:Generator_ColumnPropNameInRow="Index" msprop:Generator_ColumnVarNameInTable="columnIndex" msprop:Generator_ColumnPropNameInTable="IndexColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Length" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Length" msprop:Generator_ColumnPropNameInRow="Length" msprop:Generator_ColumnVarNameInTable="columnLength" msprop:Generator_ColumnPropNameInTable="LengthColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="FormattedDataDatasetKey1">
+      <xs:selector xpath=".//mstns:Record" />
+      <xs:field xpath="mstns:Name" />
+      <xs:field xpath="mstns:Index" />
+    </xs:unique>
+    <xs:keyref name="RecordField" refer="FormattedDataDatasetKey1" msprop:rel_Generator_UserRelationName="RecordField" msprop:rel_Generator_RelationVarName="relationRecordField" msprop:rel_Generator_UserChildTable="Field" msprop:rel_Generator_UserParentTable="Record" msprop:rel_Generator_ParentPropName="RecordRowParent" msprop:rel_Generator_ChildPropName="GetFieldRows" msdata:AcceptRejectRule="Cascade">
+      <xs:selector xpath=".//mstns:Field" />
+      <xs:field xpath="mstns:RecordName" />
+      <xs:field xpath="mstns:RecordIndex" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

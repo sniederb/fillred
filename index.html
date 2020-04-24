@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>FillRed - Fixed-length record editor</title>
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<meta content="fillred, editor, fixed-length, data, structured, record" name="keywords">
+		<meta content="FillRed - Fixed-length record editor" name="description">
+		<meta content="index,follow" name="robots">
+		<meta content="3 weeks" name="revisit-after">
+		<meta content="en" name="content-language">
+		<meta content="Simon Niederberger" name="copyright">
+		<meta content="Simon Niederberger" name="author">
+		<meta content="Simon Niederberger" name="publisher">
+		<style type="text/css"> BODY { font-family : Arial; }
+		</style>
+	</head>
+	<body>
+		<H1>FillRed - Fixed-length record editor</H1>
+		<P>
+			<TABLE id="Table1" cellSpacing="1" cellPadding="3" width="100%" border="0">
+				<TR>
+					<TD vAlign="top">
+						<H2>Features</H2>
+						<UL>
+							<LI>
+							Edit fixed-length ASCII files using a defined layout
+							<LI>
+							Allows for direct (= unstructured) editing of data in source view
+							<LI>
+								Data layout stored in XML</LI></UL>
+						<H2>Requirements</H2>
+						<UL>
+							<LI>
+								Developed and tested on Windows XP with .NET framework 2.0</LI></UL>
+						<H2>License</H2>
+						<UL>
+							<LI>
+							FillRed is free.
+							<LI>
+								Use this software at your own risk. I do not guarantee the 
+								consistency&nbsp;and/or validity of any file edited with FillRed.</LI></UL>
+						<P>&nbsp;</P>
+					</TD>
+					<TD align="right"><A href="large_screenshot.jpg"><img src="screenshot.jpg"></A></TD>
+				</TR>
+			</TABLE>
+		</P>
+		<A href="/download.php?file=FillRed.zip">Download FillRed (44 kB)</A>
+		<H3>How to write conditions for optional fields</H3>
+		<P>The internal fieldnames for a single record layout are:
+			<BR>
+		</P>
+		<UL>
+			<BR>
+			Index
+			<BR>
+			Name
+			<BR>
+			IsRecordIdentifier
+			<BR>
+			PredefinedValue
+			<BR>
+			Format
+			<BR>
+			Length
+			<BR>
+			Occurence
+			<BR>
+			RecordName
+			<BR>
+			Description
+			<BR>
+			IsOptional
+			<BR>
+			Condition
+			<BR>
+			IsEOR
+			<BR>
+		</UL>
+		<P><BR>
+			A condition can only check the current record and only data fields already 
+			parsed (no "look-ahead"). For example, if my record has a field named 
+			'HasMoreData' which has possibly values 'Y' and 'N', a condition for a 
+			succeeding, optional field would be:
+			<BR>
+			<BR>
+			(Name = 'HasMoreData') and (Value = 'Y')
+			<BR>
+			<BR>
+			Explanation: the condition looks for a field named 'HasMoreData' with a value 
+			of 'Y'. If such a field is found, the optional field is parsed.</P>
+		<P><A href="/download.php?file=FillRed.zip"></A>&nbsp;</P>
+		<H2>Version history</H2>
+		<H3>Planned improvements</H3>
+		<UL>
+			<LI>
+			Allow multiple occurences of fields
+			<LI>
+			Validate field format
+			<LI>
+			Allow user to choose between left and right padding
+			<LI>
+				COBOL copybook import</LI></UL>
+        <p>
+        </p>
+		<H3>
+            June 15th, 2008 - 1.1.0.476</H3><UL>
+                <LI>Reads data filename from the command line (first argument)</li>
+                <LI>Now supports variable length fields. Set a length &lt; 0 to indicate variable length.
+                    ATTENTION: Variable length fields MUST be followed by a field with a predefined
+                    value.</li>
+            <li>Added a "hide in formatted view" flag to record definition (in order to hide technical
+                records such as 'separators')</li>
+                <li>Added simple record navigation on "formatted" view</li>
+                <li>Added an error reporting which will send e-mails to my support address on fatal
+                errors. Disable in the "About" dialog. </li>
+                <LI>Fixed several minor bugs </li>
+            </ul>
+        
+        <h3>
+            January 16th, 2006 - 1.0.0.321</h3>
+		<UL>
+			<LI>
+			Added layout validation on save of layout
+			<LI>
+			Added more detailed parsing error messages
+			<LI>
+			Source format allows for&nbsp;various line delimiters
+			<LI>
+				Fixed several minor bugs
+			</LI>
+		</UL>
+		<H3>January 14th, 2006&nbsp;- 1.0.0.241 (BETA)</H3>
+		<UL>
+			<LI>
+			Fixed copy/paste bug with grids
+			<LI>
+			Added optional logging for troubleshooting
+			<LI>
+				Add "optional fields" feature:
+				<UL>
+					<LI>
+						A condition is evaluated if present (for condition syntax see <A href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfsystemdatadatacolumnclassexpressiontopic.asp">
+							MSDN DataColumn.Expression</A>)
+					<LI>
+					Othwise, the current data value is compared to the predefined value and read if 
+					they match
+					<LI>
+						If whether condition or predefined value are defined, but an EOR field is 
+						present, the data is read if it doesn't match the EOR</LI></UL>
+			</LI>
+		</UL>
+		<H3>January 11th, 2006&nbsp;- 1.0.0.165 (BETA)</H3>
+		<UL>
+			<LI>
+			Initial version
+			<LI>
+				Layout fields "Format", "Occurence" are not yet used</LI></UL>
+	</body>
+</html>

@@ -1,0 +1,3102 @@
+<LayoutDataset xmlns="http://www.want.ch/fillred" xmlns:ns="http://www.want.ch/fillred">
+	<Record>
+		<Name>Airline Data</Name>
+	</Record>
+	<Record>
+		<Name>BOS/Ticket Remarks</Name>
+	</Record>
+	<Record>
+		<Name>Corporate Name</Name>
+	</Record>
+	<Record>
+		<Name>Customer Remark</Name>
+	</Record>
+	<Record>
+		<Name>End of File</Name>
+		<HideInFormatView>true</HideInFormatView>
+	</Record>
+	<Record>
+		<Name>Fare Basis Data</Name>
+	</Record>
+	<Record>
+		<Name>Fare Construction Data</Name>
+	</Record>
+	<Record>
+		<Name>Fare Value Data</Name>
+	</Record>
+	<Record>
+		<Name>Frequent Flyer Data</Name>
+	</Record>
+	<Record>
+		<Name>Header</Name>
+	</Record>
+	<Record>
+		<Name>Passenger Data</Name>
+	</Record>
+	<Record>
+		<Name>Phone Data</Name>
+	</Record>
+	<Record>
+		<Name>Section Delimiter</Name>
+		<HideInFormatView>true</HideInFormatView>
+	</Record>
+	<Record>
+		<Name>Waitlist Data</Name>
+	</Record>
+	<Field>
+		<Index>1</Index>
+		<Name>Section Label "a04"</Name>
+		<IsRecordIdentifier>true</IsRecordIdentifier>
+		<PredefinedValue>A04</PredefinedValue>
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>2</Index>
+		<Name>Itinerary Index Number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>3</Index>
+		<Name>Airline Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>4</Index>
+		<Name>Airline Number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>5</Index>
+		<Name>Airline Name</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>12</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>6</Index>
+		<Name>Flight Number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>4</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>7</Index>
+		<Name>Class Of Service</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>8</Index>
+		<Name>Status</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>9</Index>
+		<Name>Departure Date</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>5</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>10</Index>
+		<Name>Departure Time</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>5</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>11</Index>
+		<Name>Arrival Time</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>5</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>12</Index>
+		<Name>Next Day Arrival Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>13</Index>
+		<Name>Origin City Information</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>16</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>14</Index>
+		<Name>Destination City Information</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>16</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>15</Index>
+		<Name>Domestic/international Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>16</Index>
+		<Name>Seat Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>17</Index>
+		<Name>Meal Codes</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>4</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>18</Index>
+		<Name>Stopover Indicators</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>19</Index>
+		<Name>Number Of Stops</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>20</Index>
+		<Name>Baggage Allowance</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>21</Index>
+		<Name>Type Of Aircraft</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>4</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>22</Index>
+		<Name>Departure Terminal </Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>23</Index>
+		<Name>Nautical Miles</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>5</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>24</Index>
+		<Name>Flight Coupon Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>25</Index>
+		<Name>Segment Identifier</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>26</Index>
+		<Name>Change Of Gauge ID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>COG:</PredefinedValue>
+		<Format>X</Format>
+		<Length>4</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>27</Index>
+		<Name>Intermediate City Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Change Of Gauge ID') and (Value = 'COG:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>28</Index>
+		<Name>Intermediate City Name</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>13</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Change Of Gauge ID') and (Value = 'COG:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>29</Index>
+		<Name>Next Day Arrival Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Change Of Gauge ID') and (Value = 'COG:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>30</Index>
+		<Name>Departure Time From Intermediate City</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>5</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Change Of Gauge ID') and (Value = 'COG:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>31</Index>
+		<Name>Group Control Record ID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>GCR:</PredefinedValue>
+		<Format>X</Format>
+		<Length>4</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>32</Index>
+		<Name>Group Control Record Locator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>6</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Group Control Record ID') and (Value = 'GCR:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>33</Index>
+		<Name>Affiliated Carrier ID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>AC:</PredefinedValue>
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>34</Index>
+		<Name>Affiliated Carrier Name</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>12</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Affiliated Carrier ID') and (Value = 'AC:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>35</Index>
+		<Name>Frequent Flyer Miles ID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>FF:</PredefinedValue>
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>36</Index>
+		<Name>Frequent Flyer Miles</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>5</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Frequent Flyer Miles ID') and (Value = 'FF:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>37</Index>
+		<Name>Ticketed Indicator ID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>TK:</PredefinedValue>
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>38</Index>
+		<Name>Ticketed Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Ticketed Indicator ID') and (Value = 'TK:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>39</Index>
+		<Name>Journey Time Indicator ID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>JT:</PredefinedValue>
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>40</Index>
+		<Name>Total Duration Of Journey Time By Segment</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>5</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Journey Time Indicator ID') and (Value = 'JT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>41</Index>
+		<Name>EOR</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Airline Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>true</IsEOR>
+	</Field>
+	<Field>
+		<Index>1</Index>
+		<Name>Section Label "a14"</Name>
+		<IsRecordIdentifier>true</IsRecordIdentifier>
+		<PredefinedValue>A14</PredefinedValue>
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>BOS/Ticket Remarks</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>2</Index>
+		<Name>Freeform Remarks</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>-1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>BOS/Ticket Remarks</RecordName>
+		<Description>Variable length, max 90</Description>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>3</Index>
+		<Name>EOR</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>BOS/Ticket Remarks</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>true</IsEOR>
+	</Field>
+	<Field>
+		<Index>1</Index>
+		<Name>Section Label</Name>
+		<IsRecordIdentifier>true</IsRecordIdentifier>
+		<PredefinedValue>A01</PredefinedValue>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Corporate Name</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>2</Index>
+		<Name>Corporate Name</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>34</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Corporate Name</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>3</Index>
+		<Name>EOR</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Corporate Name</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>true</IsEOR>
+	</Field>
+	<Field>
+		<Index>1</Index>
+		<Name>Section Label</Name>
+		<IsRecordIdentifier>true</IsRecordIdentifier>
+		<PredefinedValue>A00</PredefinedValue>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Customer Remark</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>2</Index>
+		<Name>Customer Remark</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>44</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Customer Remark</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>3</Index>
+		<Name>EOR</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Customer Remark</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>true</IsEOR>
+	</Field>
+	<Field>
+		<Index>1</Index>
+		<Name>Final character</Name>
+		<IsRecordIdentifier>true</IsRecordIdentifier>
+		<PredefinedValue>\u12</PredefinedValue>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>End of File</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>true</IsEOR>
+	</Field>
+	<Field>
+		<Index>1</Index>
+		<Name>Section Label "a08"</Name>
+		<IsRecordIdentifier>true</IsRecordIdentifier>
+		<PredefinedValue>A08</PredefinedValue>
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Basis Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>2</Index>
+		<Name>Fare Section Id</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Basis Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>3</Index>
+		<Name>Itinerary Index Number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Basis Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>4</Index>
+		<Name>Fare Basis Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Basis Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>5</Index>
+		<Name>Segment Value</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Basis Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>6</Index>
+		<Name>Not Valid Before Date</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>7</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Basis Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>7</Index>
+		<Name>Not Valid After Date</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>7</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Basis Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>8</Index>
+		<Name>Segment Ticket Designator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>6</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Basis Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>9</Index>
+		<Name>Endorsement ID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>E:</PredefinedValue>
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Basis Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>10</Index>
+		<Name>Endorsement</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>60</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Basis Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Endorsement ID') and (Value = 'E:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>12</Index>
+		<Name>EOR</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Basis Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>true</IsEOR>
+	</Field>
+	<Field>
+		<Index>1</Index>
+		<Name>Section Label "a09"</Name>
+		<IsRecordIdentifier>true</IsRecordIdentifier>
+		<PredefinedValue>A09</PredefinedValue>
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>2</Index>
+		<Name>Fare Section ID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>3</Index>
+		<Name>Type </Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>4</Index>
+		<Name>First Line Of Fare</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>-1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<Description>Variable length, max 61</Description>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>5</Index>
+		<Name>Carriage Return</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>6</Index>
+		<Name>Second Line Of Fare</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>-1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<Description>Variable length, max 61</Description>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'First Line Of Fare') and (Value &lt;&gt; '')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>7</Index>
+		<Name>Carriage Return</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'First Line Of Fare') and (Value &lt;&gt; '')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>8</Index>
+		<Name>Third Line Of Fare</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>-1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<Description>Variable length, max 61</Description>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Second Line Of Fare') and (Value &lt;&gt; '')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>9</Index>
+		<Name>Carriage Return</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Third Line Of Fare') and (Value &lt;&gt; '')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>10</Index>
+		<Name>Fourth Line Of Fare</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>-1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<Description>Variable length, max 61</Description>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Third Line Of Fare') and (Value &lt;&gt; '')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>11</Index>
+		<Name>Carriage Return</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Fourth Line Of Fare') and (Value &lt;&gt; '')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>12</Index>
+		<Name>Fifth Line Of Fare</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>-1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<Description>Variable length, max 51</Description>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Fourth Line Of Fare') and (Value &lt;&gt; '')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>13</Index>
+		<Name>Carriage Return</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Fifth Line Of Fare') and (Value &lt;&gt; '')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>14</Index>
+		<Name>Vat Amount Message For Ticketing</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>-1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<Description>Variable length, max 61</Description>
+		<IsOptional>true</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>15</Index>
+		<Name>EOR</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Construction Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>true</IsEOR>
+	</Field>
+	<Field>
+		<Index>1</Index>
+		<Name>Section label</Name>
+		<IsRecordIdentifier>true</IsRecordIdentifier>
+		<PredefinedValue>A07</PredefinedValue>
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>2</Index>
+		<Name>Fare Section Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>3</Index>
+		<Name>Currency Code For Base Fare</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>4</Index>
+		<Name>Base Fare Amount</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>12</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>5</Index>
+		<Name>Currency Code For </Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>6</Index>
+		<Name>Total Amount</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>12</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>7</Index>
+		<Name>Currency Code For </Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>8</Index>
+		<Name>Equivalent Amount</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>12</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>9</Index>
+		<Name>Tax Currency Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>10</Index>
+		<Name>Tax 1 ID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>T1:</PredefinedValue>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>11</Index>
+		<Name>Tax 1</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Tax 1 ID') and (Value = 'T1:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>12</Index>
+		<Name>Tax 1 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Tax 1 ID') and (Value = 'T1:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>13</Index>
+		<Name>Tax 2 ID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>T2:</PredefinedValue>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>14</Index>
+		<Name>Tax 2</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Tax 2 ID') and (Value = 'T2:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>15</Index>
+		<Name>Tax 2 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Tax 2 ID') and (Value = 'T2:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>16</Index>
+		<Name>Tax 3 ID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>T3:</PredefinedValue>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>17</Index>
+		<Name>Tax 3</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Tax 3 ID') and (Value = 'T3:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>18</Index>
+		<Name>Tax 3 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Tax 3 ID') and (Value = 'T3:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>25</Index>
+		<Name>Carriage Return</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>Name = 'Tax Currency Code'</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>26</Index>
+		<Name>Individual Tax ID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>IT:</PredefinedValue>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>27</Index>
+		<Name>Individual Tax 1</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>28</Index>
+		<Name>Individual Tax 1 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>29</Index>
+		<Name>Individual Tax 2</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>30</Index>
+		<Name>Individual Tax 2 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>31</Index>
+		<Name>Individual Tax 3</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>32</Index>
+		<Name>Individual Tax 3 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>33</Index>
+		<Name>Individual Tax 4</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>34</Index>
+		<Name>Individual Tax 4 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>35</Index>
+		<Name>Individual Tax 5</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>36</Index>
+		<Name>Individual Tax 5 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>37</Index>
+		<Name>Individual Tax 6</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>38</Index>
+		<Name>Individual Tax 6 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>39</Index>
+		<Name>Individual Tax 7</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>40</Index>
+		<Name>Individual Tax 7 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>41</Index>
+		<Name>Individual Tax 8</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>42</Index>
+		<Name>Individual Tax 8 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>43</Index>
+		<Name>Individual Tax 9</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>44</Index>
+		<Name>Individual Tax 9 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>45</Index>
+		<Name>Individual Tax 10</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>46</Index>
+		<Name>Individual Tax 10 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>47</Index>
+		<Name>Individual Tax 11</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>48</Index>
+		<Name>Individual Tax 11 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>49</Index>
+		<Name>Individual Tax 12</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>50</Index>
+		<Name>Individual Tax 12 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>51</Index>
+		<Name>Individual Tax 13</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>52</Index>
+		<Name>Individual Tax 13 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>53</Index>
+		<Name>Individual Tax 14</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>54</Index>
+		<Name>Individual Tax 14 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>55</Index>
+		<Name>Individual Tax 15</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>56</Index>
+		<Name>Individual Tax 15 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>57</Index>
+		<Name>Individual Tax 16</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>58</Index>
+		<Name>Individual Tax 16 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>59</Index>
+		<Name>Individual Tax 17</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>60</Index>
+		<Name>Individual Tax 17 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>61</Index>
+		<Name>Individual Tax 18</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>62</Index>
+		<Name>Individual Tax 18 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>63</Index>
+		<Name>Individual Tax 19</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>64</Index>
+		<Name>Individual Tax 19 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>65</Index>
+		<Name>Individual Tax 20</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>66</Index>
+		<Name>Individual Tax 20 Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>(Name = 'Individual Tax ID') and (Value = 'IT:')</Condition>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>67</Index>
+		<Name>End of tax section</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>true</IsOptional>
+		<Condition>Name = 'Individual Tax ID'</Condition>
+		<IsEOR>true</IsEOR>
+	</Field>
+	<Field>
+		<Index>68</Index>
+		<Name>EOR</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Fare Value Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>true</IsEOR>
+	</Field>
+	<Field>
+		<Index>1</Index>
+		<Name>Section Label "a03"</Name>
+		<IsRecordIdentifier>true</IsRecordIdentifier>
+		<PredefinedValue>A03</PredefinedValue>
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Frequent Flyer Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>2</Index>
+		<Name>Frequent Flyer Passenger Name</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>21</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Frequent Flyer Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>3</Index>
+		<Name>Frequent Flyer Carrier Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Frequent Flyer Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>4</Index>
+		<Name>Blank (space) / Separator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Frequent Flyer Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>5</Index>
+		<Name>Frequent Flyer Number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>44136</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Frequent Flyer Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>6</Index>
+		<Name>EOR</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Frequent Flyer Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>true</IsEOR>
+	</Field>
+	<Field>
+		<Index>1</Index>
+		<Name>Basic ID</Name>
+		<IsRecordIdentifier>true</IsRecordIdentifier>
+		<PredefinedValue>T5</PredefinedValue>
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>2</Index>
+		<Name>Transmitting System</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<Description>1G = GCS, 1V = APO</Description>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>3</Index>
+		<Name>AccountingCode</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>4</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<Description>T50SPC</Description>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>4</Index>
+		<Name>MIR Type</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<Description>T50MIR</Description>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>5</Index>
+		<Name>Total Record Size</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>5</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>6</Index>
+		<Name>Sequence Number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>5</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<Description>T50SEQ</Description>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>7</Index>
+		<Name>Creation DateTime</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>12</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<Description>T50DTE</Description>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>8</Index>
+		<Name>Airline code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<Description>T50TME</Description>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>9</Index>
+		<Name>Airline number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>10</Index>
+		<Name>Airline name</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>24</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<Description>T50ISC</Description>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>11</Index>
+		<Name>Date of first travel</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>7</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<Description>T50DFT</Description>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>12</Index>
+		<Name>Input GTID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>6</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>13</Index>
+		<Name>Output GTID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>6</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>14</Index>
+		<Name>CarriageReturn</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>15</Index>
+		<Name>Booking Agency Account Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>4</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>16</Index>
+		<Name>Issuing Agency Account Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>4</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>17</Index>
+		<Name>Agency Account Number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>9</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>18</Index>
+		<Name>Record Locator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>6</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<Description>T50RCL</Description>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>19</Index>
+		<Name>Record Locator of Originating CRS</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>6</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>20</Index>
+		<Name>Other CRS Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>21</Index>
+		<Name>Automatic / Manual Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>22</Index>
+		<Name>Booking Agent Sign</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>6</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>23</Index>
+		<Name>Service Bureau Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>24</Index>
+		<Name>Ticketing Agent Sign</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>25</Index>
+		<Name>Agent Duty Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>26</Index>
+		<Name>PNR/Booking File Creation Date</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>7</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>27</Index>
+		<Name>Elapsed BF Handing Time</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>28</Index>
+		<Name>Date of last BF Change</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>7</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>29</Index>
+		<Name>Number of Changes to BF</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>30</Index>
+		<Name>CarriageReturn</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>31</Index>
+		<Name>Currency Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>32</Index>
+		<Name>Party Fare</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>12</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>33</Index>
+		<Name>DecimalPlacesInCurrency</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>34</Index>
+		<Name>Currency Code Taxes and Commisions</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>35</Index>
+		<Name>1. Tax amount</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>36</Index>
+		<Name>1. Tax Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>37</Index>
+		<Name>2. Tax Amount</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>38</Index>
+		<Name>2. Tax Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>39</Index>
+		<Name>3. Tax Amount</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>40</Index>
+		<Name>3. Tax Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>41</Index>
+		<Name>4. Tax Amount</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>42</Index>
+		<Name>4. Tax Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>43</Index>
+		<Name>5. Tax Amount</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>44</Index>
+		<Name>5. Tax Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>45</Index>
+		<Name>Commission Amount</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>8</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>46</Index>
+		<Name>Commission Rate</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>4</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>47</Index>
+		<Name>Tour Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>15</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>48</Index>
+		<Name>CarriageReturn</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>49</Index>
+		<Name>Retransmission</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>50</Index>
+		<Name>Manual pricing</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>51</Index>
+		<Name>Global fares</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>52</Index>
+		<Name>Fare Basis Section For All Passengers</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>53</Index>
+		<Name>STP Ticket Issued</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>54</Index>
+		<Name>ATB Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>55</Index>
+		<Name>Exchange Ticket Information</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>56</Index>
+		<Name>Conjunction Number Required</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>57</Index>
+		<Name>Fare Construction Data Present</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>58</Index>
+		<Name>Seat Data Information</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>59</Index>
+		<Name>TINS Data Present</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>60</Index>
+		<Name>Ticketing Command Used</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>61</Index>
+		<Name>SITI/SOTO</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>62</Index>
+		<Name>Travel Advisory Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>63</Index>
+		<Name>Group Manager Data Present</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>64</Index>
+		<Name>Direct Booked Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>65</Index>
+		<Name>Domestic / International</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>66</Index>
+		<Name>Plating Carrier Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>67</Index>
+		<Name>ISO Country Code of Agency</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>68</Index>
+		<Name>Dual MIR Identifier</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>69</Index>
+		<Name>Sender / Target Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>70</Index>
+		<Name>Pseuo City Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>4</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>71</Index>
+		<Name>Dual MIR Sequence Number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>5</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>72</Index>
+		<Name>Dual MIR GTID</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>6</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>73</Index>
+		<Name>STP Identifier</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>74</Index>
+		<Name>Host Pseudo City Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>4</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>75</Index>
+		<Name>Home Pseudo City Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>4</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>76</Index>
+		<Name>CarriageReturn</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>77</Index>
+		<Name>Number of Customer Remarks</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>78</Index>
+		<Name>Number of Corporate Names</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>79</Index>
+		<Name>Number of Passenger Items</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>80</Index>
+		<Name>Number of Frequent Flyer Items</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>81</Index>
+		<Name>Number of Ticketed Segments</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>82</Index>
+		<Name>Number of Waitlisted Segments</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>83</Index>
+		<Name>Number of Seat Data Items</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>84</Index>
+		<Name>Number of Fare Sections</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>85</Index>
+		<Name>Number of Ticket Exhange Items</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>86</Index>
+		<Name>Number of Forms of Payment Items</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>87</Index>
+		<Name>Number of Phone Items</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>88</Index>
+		<Name>Number of Passenger Address Items</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>89</Index>
+		<Name>Number of Backoffice Ticket Remarks</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>90</Index>
+		<Name>Number of Associated Remarks</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>91</Index>
+		<Name>Number of Auxiliary Segments</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>92</Index>
+		<Name>Number of Leisurehoper Items</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>93</Index>
+		<Name>CarriageReturn</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>94</Index>
+		<Name>EOR</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Header</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>true</IsEOR>
+	</Field>
+	<Field>
+		<Index>1</Index>
+		<Name>SectionHeader</Name>
+		<IsRecordIdentifier>true</IsRecordIdentifier>
+		<PredefinedValue>A02</PredefinedValue>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Passenger Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>2</Index>
+		<Name>Passenger Name</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>33</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Passenger Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>3</Index>
+		<Name>Transaction Number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>11</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Passenger Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>4</Index>
+		<Name>Year Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Passenger Data</RecordName>
+		<Description>Last digit of the year that the ticket was issued</Description>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>5</Index>
+		<Name>Ticket number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>10</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Passenger Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>6</Index>
+		<Name>Number of Ticket Books</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Passenger Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>7</Index>
+		<Name>Invoice Number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>9</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Passenger Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>8</Index>
+		<Name>Passenger Identification Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>6</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Passenger Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>9</Index>
+		<Name>Associated Fare Item</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Passenger Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>10</Index>
+		<Name>Associated Exchange Item</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Passenger Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>11</Index>
+		<Name>Multiple Filed Fares Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Passenger Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>12</Index>
+		<Name>EOR</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Passenger Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>true</IsEOR>
+	</Field>
+	<Field>
+		<Index>1</Index>
+		<Name>Section Label "a12"</Name>
+		<IsRecordIdentifier>true</IsRecordIdentifier>
+		<PredefinedValue>A12</PredefinedValue>
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Phone Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>2</Index>
+		<Name>City Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Phone Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>3</Index>
+		<Name>Location Type</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Phone Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>4</Index>
+		<Name>Freeform Phone Data</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>-1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Phone Data</RecordName>
+		<Description>Variable length, max 64</Description>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>5</Index>
+		<Name>EOR</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Phone Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>true</IsEOR>
+	</Field>
+	<Field>
+		<Index>1</Index>
+		<Name>CarriageReturn</Name>
+		<IsRecordIdentifier>true</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Section Delimiter</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>true</IsEOR>
+	</Field>
+	<Field>
+		<Index>1</Index>
+		<Name>Section Label "a05"</Name>
+		<IsRecordIdentifier>true</IsRecordIdentifier>
+		<PredefinedValue>A05</PredefinedValue>
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>2</Index>
+		<Name>Itinerary Index Number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>3</Index>
+		<Name>Airline Code</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>4</Index>
+		<Name>Airline Number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>3</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>5</Index>
+		<Name>Airline Name</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>12</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>6</Index>
+		<Name>Flight Number</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>4</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>7</Index>
+		<Name>Class Of Service</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>8</Index>
+		<Name>Status</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>2</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>9</Index>
+		<Name>Departure Date</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>5</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>10</Index>
+		<Name>Departure Time</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>5</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>11</Index>
+		<Name>Arrival Time</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>5</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>12</Index>
+		<Name>Next Day Arrival Indicator</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>13</Index>
+		<Name>Origin City Information</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>16</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>14</Index>
+		<Name>Destination City Information</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>16</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>15</Index>
+		<Name>Meal Codes</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>4</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>16</Index>
+		<Name>Stopover Indicators</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue />
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>false</IsEOR>
+	</Field>
+	<Field>
+		<Index>17</Index>
+		<Name>EOR</Name>
+		<IsRecordIdentifier>false</IsRecordIdentifier>
+		<PredefinedValue>\r</PredefinedValue>
+		<Format>X</Format>
+		<Length>1</Length>
+		<Occurence>1</Occurence>
+		<RecordName>Waitlist Data</RecordName>
+		<IsOptional>false</IsOptional>
+		<IsEOR>true</IsEOR>
+	</Field>
+</LayoutDataset>

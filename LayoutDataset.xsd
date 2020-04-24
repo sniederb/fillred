@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LayoutDataset" targetNamespace="http://www.want.ch/fillred" xmlns:mstns="http://www.want.ch/fillred" xmlns="http://www.want.ch/fillred" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LayoutDataset" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="LayoutDataset" msprop:Generator_DataSetName="LayoutDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Record" msprop:Generator_UserTableName="Record" msprop:Generator_RowDeletedName="RecordRowDeleted" msprop:Generator_TableClassName="RecordDataTable" msprop:Generator_RowChangedName="RecordRowChanged" msprop:Generator_RowClassName="RecordRow" msprop:Generator_RowChangingName="RecordRowChanging" msprop:Generator_RowEvArgName="RecordRowChangeEvent" msprop:Generator_RowEvHandlerName="RecordRowChangeEventHandler" msprop:Generator_TablePropName="Record" msprop:Generator_TableVarName="tableRecord" msprop:Generator_RowDeletingName="RecordRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:ID" />
+              <xs:element name="HideInFormatView" msprop:Generator_UserColumnName="HideInFormatView" msprop:Generator_ColumnPropNameInRow="HideInFormatView" msprop:Generator_ColumnVarNameInTable="columnHideInFormatView" msprop:Generator_ColumnPropNameInTable="HideInFormatViewColumn" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Field" msprop:Generator_UserTableName="Field" msprop:Generator_RowDeletedName="FieldRowDeleted" msprop:Generator_TableClassName="FieldDataTable" msprop:Generator_RowChangedName="FieldRowChanged" msprop:Generator_RowClassName="FieldRow" msprop:Generator_RowChangingName="FieldRowChanging" msprop:Generator_RowEvArgName="FieldRowChangeEvent" msprop:Generator_RowEvHandlerName="FieldRowChangeEventHandler" msprop:Generator_TablePropName="Field" msprop:Generator_TableVarName="tableField" msprop:Generator_RowDeletingName="FieldRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Index" msprop:Generator_UserColumnName="Index" msprop:Generator_ColumnPropNameInRow="Index" msprop:Generator_ColumnVarNameInTable="columnIndex" msprop:Generator_ColumnPropNameInTable="IndexColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:ID" minOccurs="0" />
+              <xs:element name="IsRecordIdentifier" msprop:Generator_UserColumnName="IsRecordIdentifier" msprop:Generator_ColumnPropNameInRow="IsRecordIdentifier" msprop:Generator_ColumnVarNameInTable="columnIsRecordIdentifier" msprop:Generator_ColumnPropNameInTable="IsRecordIdentifierColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="PredefinedValue" msprop:Generator_UserColumnName="PredefinedValue" msprop:Generator_ColumnPropNameInRow="PredefinedValue" msprop:Generator_ColumnVarNameInTable="columnPredefinedValue" msprop:Generator_ColumnPropNameInTable="PredefinedValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Format" msprop:Generator_UserColumnName="Format" msprop:Generator_ColumnPropNameInRow="Format" msprop:Generator_ColumnVarNameInTable="columnFormat" msprop:Generator_ColumnPropNameInTable="FormatColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Length" msprop:Generator_UserColumnName="Length" msprop:Generator_ColumnPropNameInRow="Length" msprop:Generator_ColumnVarNameInTable="columnLength" msprop:Generator_ColumnPropNameInTable="LengthColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Occurence" msprop:Generator_UserColumnName="Occurence" msprop:Generator_ColumnPropNameInRow="Occurence" msprop:Generator_ColumnVarNameInTable="columnOccurence" msprop:Generator_ColumnPropNameInTable="OccurenceColumn" type="xs:int" default="1" minOccurs="0" />
+              <xs:element name="RecordName" msprop:Generator_UserColumnName="RecordName" msprop:Generator_ColumnPropNameInRow="RecordName" msprop:Generator_ColumnVarNameInTable="columnRecordName" msprop:Generator_ColumnPropNameInTable="RecordNameColumn" type="xs:string" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsOptional" msprop:Generator_UserColumnName="IsOptional" msprop:Generator_ColumnPropNameInRow="IsOptional" msprop:Generator_ColumnVarNameInTable="columnIsOptional" msprop:Generator_ColumnPropNameInTable="IsOptionalColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="Condition" msprop:Generator_UserColumnName="Condition" msprop:Generator_ColumnPropNameInRow="Condition" msprop:Generator_ColumnVarNameInTable="columnCondition" msprop:Generator_ColumnPropNameInTable="ConditionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsEOR" msprop:Generator_UserColumnName="IsEOR" msprop:Generator_ColumnPropNameInRow="IsEOR" msprop:Generator_ColumnVarNameInTable="columnIsEOR" msprop:Generator_ColumnPropNameInTable="IsEORColumn" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="LayoutDatasetKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Record" />
+      <xs:field xpath="mstns:Name" />
+    </xs:unique>
+    <xs:unique name="LayoutDatasetKey2">
+      <xs:selector xpath=".//mstns:Field" />
+      <xs:field xpath="mstns:Index" />
+      <xs:field xpath="mstns:RecordName" />
+    </xs:unique>
+    <xs:keyref name="RecordField" refer="LayoutDatasetKey1" msprop:rel_Generator_UserRelationName="RecordField" msprop:rel_Generator_RelationVarName="relationRecordField" msprop:rel_Generator_UserChildTable="Field" msprop:rel_Generator_UserParentTable="Record" msprop:rel_Generator_ParentPropName="RecordRow" msprop:rel_Generator_ChildPropName="GetFieldRows" msdata:AcceptRejectRule="Cascade">
+      <xs:selector xpath=".//mstns:Field" />
+      <xs:field xpath="mstns:RecordName" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

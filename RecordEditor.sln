@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordEditor", "RecordEditor.csproj", "{C3247078-45C1-4291-8AAA-9E902A184A0E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RecordEditorSetup", "..\RecordEditorSetup\RecordEditorSetup.vdproj", "{2EA2415A-5FC5-4168-9AEE-6C91C303B4B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3247078-45C1-4291-8AAA-9E902A184A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3247078-45C1-4291-8AAA-9E902A184A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3247078-45C1-4291-8AAA-9E902A184A0E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3247078-45C1-4291-8AAA-9E902A184A0E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2EA2415A-5FC5-4168-9AEE-6C91C303B4B5}.Debug|Any CPU.ActiveCfg = Debug
+		{2EA2415A-5FC5-4168-9AEE-6C91C303B4B5}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
